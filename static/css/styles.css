@@ -1,0 +1,156 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: normal;
+}
+
+body, html {
+	margin: 0px;
+	padding: 0px;
+}
+
+.site-header {
+	position: relative;
+	background: #323232;
+	color: white;
+	padding: 1em;
+	overflow: hidden;
+}
+
+.site-header:before,
+.site-header:after {
+	content: " ";
+	display: table;
+}
+
+.site-header:after {
+	clear: both;
+}
+
+@media screen and (min-width: 41em) {
+	.site-header {
+		padding: 1.8em 0;
+	}
+}
+
+.head-wrapper {
+	zoom: 1;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 96em;
+	padding: 0 1.125em;
+}
+
+.logo {
+	text-decoration: none;
+	display: block;
+	margin: 5%;
+}
+
+@media screen and (min-width: 20em) {
+    .logo img {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 28em) {
+    .logo {
+        height: 4.75em;
+        margin: 0;
+        width: auto;
+    }
+    .logo img {
+        height: 100%;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 41em) {
+    .logo {
+        position: absolute;
+        z-index: 100;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%)
+    }
+}
+
+
+/*Social*/
+
+.social ul {
+	zoom: 1;
+	width: 100%;
+	display: block;
+	margin: 0;
+}
+
+.social ul:before,
+.social ul:after {
+	content: " ";
+	display: table;
+}
+
+.social ul li {
+	list-style-type: none;
+	float: left;
+}
+
+.social ul li a {
+	display: block;
+	text-decoration: none;
+}
+
+/*Download Links*/
+
+.cta a {
+	min-width: 12.5em;
+	height: 24px;
+	vertical-align: top;
+	margin: 0;
+}
+
+@media screen and (min-width: 20em) {
+	.cta {
+		float: none;
+		width: 12.5em;
+		vertical-align: middle;
+		margin: auto;
+		padding-top: 0%;
+		padding-bottom: 8%;
+	}
+}
+
+@media screen and (min-width: 28em) {
+	.cta {
+		float: right;
+		width: 12em;
+		vertical-align: middle;
+		margin: auto;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+}
+
+.header-badge-container {
+	height: 30px;
+	width: 180px;
+	margin: auto;
+}
+
+.header-badge-apple {
+	height: 37px;
+	width: 80px;
+}
+
+.header-badge-google {
+	width: 95px;
+}
+
+a img {
+	border: none;
+}
+
