@@ -74,7 +74,7 @@ body, html {
         top: 50%;
         left: 50%;
         -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%)
+        transform: translate(-50%, -50%);
     }
 }
 
@@ -152,5 +152,65 @@ body, html {
 
 a img {
 	border: none;
+}
+
+/*Landing Screen*/
+
+.landing-screen {
+	zoom: 1;
+	position: relative;
+	width: 100%;
+	background: #323232;
+}
+
+.landing-screen:before,
+.landing-screen:after {
+	content: " ";
+	display: table;
+}
+
+.landing-screen:after {
+	clear: both;
+}
+
+.landing-screen__media {
+	position: relative;
+	z-index: 200;
+	opacity: .75;
+	width: 100%;
+}
+
+.landing-screen__main {
+	position: absolute;
+	z-index: 210;
+	width: 100%;
+	top: 50%;
+	text-align: center;
+	color: white;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+	padding-right: auto;
+	padding-left: auto;
+}
+
+.landing-screen__main h2 {
+	font-family: 'Avenir Next';
+	font-size: 2em;
+}
+
+video.landing-screen__media {
+	display: none;
+}
+
+@media screen and (min-width: 48.0625em) {
+	img.landing-screen__media {
+		display: none;
+	}
+	.heading-1 {
+		display: none;
+	}
+	video.landing-screen__media {
+		display: block;
+	}
 }
 

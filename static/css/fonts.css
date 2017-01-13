@@ -1,3 +1,5 @@
+/*Icon Font*/
+
 @font-face {
     font-family: "Flaticon";
     src: url("../fonts/Flaticon.eot");
@@ -29,3 +31,48 @@
 .icon-youtube:before { content: "\f101"; }
 .icon-twitter:before { content: "\f102"; }
 .icon-instagram:before { content: "\f103"; }
+
+/*Avenir Next*/
+
+/*
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('../fonts/AvenirNext-Regular.eot');
+    src: url('../fonts/AvenirNext-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirNext-Regular.woff') format('woff'),
+        url('../fonts/AvenirNext-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('../fonts/AvenirNext-Medium.eot');
+    src: url('../fonts/AvenirNext-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirNext-Medium.woff') format('woff'),
+        url('../fonts/AvenirNext-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+*/
+
+@font-face {
+    font-family: 'Avenir Next Demi';
+    src: url('../fonts/AvenirNext-DemiBold.eot');
+    src: url('../fonts/AvenirNext-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirNext-DemiBold.woff') format('woff'),
+        url('../fonts/AvenirNext-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('../fonts/AvenirNext-Heavy.eot');
+    src: url('../fonts/AvenirNext-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirNext-Heavy.woff') format('woff'),
+        url('../fonts/AvenirNext-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
